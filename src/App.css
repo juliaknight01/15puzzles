@@ -1,0 +1,20 @@
+:root{
+  --size: 100px;
+  --tile: #3c0505;
+  --correct: rgba(255, 0, 0, 0.8);
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html,body {
+  background-image: url("assets/moon.jpg"); 
+  background-size: cover ;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  
+}
+.App * {font-family: 'Pacifico', cursive;}

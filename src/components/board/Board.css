@@ -1,0 +1,23 @@
+.game {
+  position: relative;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, var(--size));
+  grid-template-rows: repeat(4, var(--size));
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #3c0505;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.board:hover {
+  box-shadow: 0 0 40px rgba(255, 0, 0, 1); 
+}
+
+:root {
+  --glow-color: hsl(0, 76.6%, 40.2%);
+}
